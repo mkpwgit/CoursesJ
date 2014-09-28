@@ -1,0 +1,6 @@
+Чтобы выполнить второе задание:
+1. Нужно в консоли зайти в папку, где лежит проект CoursesJ. (cd /home/mikalai/Projects/CoursesJ - пример команды).
+2. javac src/com/company/SecondTask.java (это нужно прописать в консоли). javac - компилятор java. Он делает файл *.class из *.java .
+3. java -cp ./src com.company.SecondTask  (java - запускает *.class файл). -cp где искать.
+
+
