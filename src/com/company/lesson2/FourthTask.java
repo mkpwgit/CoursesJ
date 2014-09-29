@@ -15,5 +15,20 @@ public class FourthTask {
 
         System.out.println("Hex: "+Long.toBinaryString(hexLongValue));
         System.out.println("Oct: "+Long.toBinaryString(octLongValue));
+
+        String s;
+        int a=47;
+        StringBuilder sb = new StringBuilder ("0123456789");
+        s=sb.append("").append(a).append("").toString();
+        System.out.println(s);
+        sb.delete(0,2);
+        System.out.println(sb);
+        sb.insert(0,4);
+        System.out.println(sb);
+        sb.replace(0,9,"42");
+        System.out.println(sb);
+
+        Integer[] points = new Integer[5];
+
     }
 }
